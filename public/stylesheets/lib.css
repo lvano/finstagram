@@ -8,11 +8,6 @@ body, input {
   color: #244751;
 }
 
-a {
-  color: #8da7b8;
-  text-decoration: none;
-}
-
 label {
   display: block;
   margin-bottom: .25em;
@@ -29,6 +24,13 @@ header {
   overflow: hidden;
   display: flex;
   align-items: baseline;
+  padding-left: 10px;
+  padding-right: 7px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 header > .login-info {
@@ -51,6 +53,7 @@ main {
   width: 100%;
   border-radius: 4px;
   box-sizing: border-box;
+  color: #244751
 }
 
 .button {
@@ -96,8 +99,8 @@ main {
 }
 
 .actions button.user-like {
-  color: #FF2600;
-  border-color: #FF2600;
+  color: #244751;
+  border-color: #244751;
 }
 
 .actions .comment-count {
